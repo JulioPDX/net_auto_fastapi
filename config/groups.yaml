@@ -1,0 +1,15 @@
+---
+aruba:
+  platform: aoscx
+  username: admin
+  password: aruba
+
+cisco:
+  platform: ios
+  username: cisco
+  password: cisco
+
+arista:
+  platform: eos
+  username: admin
+  password: arista

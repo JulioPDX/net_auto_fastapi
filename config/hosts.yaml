@@ -1,0 +1,15 @@
+---
+ArubaCX:
+  hostname: "192.168.10.142"
+  groups:
+    - aruba
+
+vIOS:
+  hostname: "192.168.10.122"
+  groups:
+    - cisco
+
+vEOS:
+  hostname: "192.168.10.151"
+  groups:
+    - arista
