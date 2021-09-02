@@ -38,4 +38,4 @@ async def get_devices():
 async def get_config(hostname: str, getter: str):
     """Function used to interact with NAPALM and devices"""
     rtr = nr.filter(name=f"{hostname}")
-    return rtr.run(name="Get Config", task=napalm_get, getters=[f"{getter}"])
+    return rtr.run(name=f"Get {hostname} {getter}", task=napalm_get, getters=[f"{getter}"])
